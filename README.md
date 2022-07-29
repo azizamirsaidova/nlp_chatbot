@@ -26,6 +26,7 @@ Evaluation metrics for monitoring and improving the performance of the model:
 ## Results
 
 | Metric | Fine-tuning 1 | Fine-tuning 2 | Improvement|
+| :------------ |:---------------:| -----:|-----:|
 | BLEU| 0.104 | 0.338 | 225%|  
 | ROUGE| 0.244 | 0.718 | 194% |
 | BERTscore| 0.866 | 0.916 | 6% |
