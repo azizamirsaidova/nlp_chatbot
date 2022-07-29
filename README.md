@@ -8,7 +8,7 @@ MultiWOZ 2.2 dataset (for detailed descriptions see https://arxiv.org/pdf/1810.0
 
 ## Task
 
-To improve baseline for the the model that generates both sides of the dialogue by using decoding and different evelaution metrics:
+Improve the baseline for the the model that generates both sides of the dialogue by using decoding and different evaluation metrics.
 
 ## Method
 Decoding methods used:
@@ -26,13 +26,9 @@ Evaluation metrics for monitoring and improving the performance of the model:
 ## Results
 
 | Metric | Fine-tuning 1 | Fine-tuning 2 | Improvement|
-| :---: | :---: | :---: | :---: | 
 | BLEU| 0.104 | 0.338 | 225%|  
-| :---: | :---: | :---: | :---: | 
 | ROUGE| 0.244 | 0.718 | 194% |
-| :---: | :---: | :---: | :---: | 
 | BERTscore| 0.866 | 0.916 | 6% |
-| :---: | :---: | :---: | :---: | 
 
 **BLEU:** For Bleu we see an improvement of more than double, since it is notorious that the pred text now has a greater number of n-grams identical to the ref. Also note that both pred texts have a length greater than the ref, which avoids the brevity penalty. But, the change of order of some words works against it in the score.
 
